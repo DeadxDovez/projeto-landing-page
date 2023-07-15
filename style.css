@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    font-family: "Inter";
+}
+
+#logo{
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#titulo{
+    font-size: 65px;
+    color: white;
+    margin-left: 220px;
+    margin-top: 50px;
+    
+}
+
+#paragrafo{
+    font-size: 25px;
+    color: #fff;
+    margin-left: 220px;
+    margin-top: 15px;
+    padding-bottom: 70px;
+    
+}
+
+#menu-superior{
+    background-image: url(./Imagens/background-menutop.svg);
+    background-size: cover;}
+    
+
+#menu-info{
+
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+   margin: 50px  20px  50px  203px;
+    
+}
+
+.infotext{
+    display: flex;
+    align-items: center;
+
+}
+
+#videos{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    
+}
+
+#titulovideo{
+    color: #247BA0;
+    font-size: 45px;
+    margin-top: 65px;
+}
+
+#textovideo{
+    font-size: 25px;
+}
+
+#youtube{
+    margin: 50px 0px 50px 200px;
+}
+
+#depoimentos{
+    background-color: #247BA0;
+}
+
+#titulodepoimentos{
+    color: #EAECE5;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 50px;
+}
+
+#divcard{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.cards{
+    margin: 10px 0px 50px 200px;
+
+}
+
+#seta-esquerda{
+    display: none;
+    
+    
+    
+    
+}
+
+#cardbruna{
+    display: none;
+}
+
+#seta-direita{
+    margin-top: 55px;
+}
+
+.seta{
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform:translateY(7px);
+    transition-duration: 0.5s;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#tituloformulario{
+    font-size: 30px;
+    color: #383838;
+    margin: 25px;
+
+}
+
+input{
+    width: 413px;
+    height: 53px;
+    background-color: darkgrey;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+
+button{
+    background-color: #247BA0;
+    height: 40px;
+    width: 250px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: #45a6cf;
+    color: white;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 20px #255a70 ;
+}
+
+
